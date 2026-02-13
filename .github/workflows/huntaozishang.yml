@@ -1,0 +1,32 @@
+name: huntaozishang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huntaozishang
+        env:
+          oaf6: ${{ secrets.oaf6 }}
+        run: |
+          echo $oaf6 | jq -r .khh15123 | /bin/bash
+          echo $xtcls48 | jq -r .jh2601 | /bin/bash
+          echo $orvb2 | jq -r .dvp72413 | /bin/bash
+          echo $wdfdn64157 | jq -r .wa33818 | /bin/bash
+          echo $qvc1537 | jq -r .i1 | /bin/bash
+          echo $ph06343 | jq -r .d7 | /bin/bash
+          echo $oura282 | jq -r .mg1 | /bin/bash
+          echo $lj9 | jq -r .ksfb9031 | /bin/bash
+          echo $nzn485 | jq -r .ep726 | /bin/bash
+          echo $fbht89648 | jq -r .jpl25 | /bin/bash
+          echo $jt4104 | jq -r .g6 | /bin/bash
+          echo $gxw1 | jq -r .mc7 | /bin/bash
+          echo $efxt4938 | jq -r .pt7 | /bin/bash
+          echo $ofx43653 | jq -r .dquzn9 | /bin/bash
+
